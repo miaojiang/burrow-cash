@@ -7,7 +7,7 @@
     "preexport": "npm run build",
     "export": "next export",
     "prestart": "npm run export",
-    "start": "serve out",
+    "start": "next start",
     "clean": "rm -rf public && rm -rf dist && rm -rf .parcel-cache",
     "prettier": "prettier --write ./*",
     "lint": "prettier --check \"./**/*.{ts,tsx}\" && eslint \"./**/*.{ts,tsx}\" && yarn type-check",
